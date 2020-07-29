@@ -19,6 +19,10 @@ data dirlist;
 run;
 
 
+
+
+
+
 data dirlist; set dirlist; retain directory;
 	if mark=1 then directory=buffer;
 	if mark=1 then delete;
